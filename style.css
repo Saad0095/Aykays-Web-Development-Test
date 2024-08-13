@@ -221,6 +221,7 @@ button:hover {
   gap: 10px;
   overflow: hidden;
   width: 100%;
+
 }
 
 .images-container .box {
@@ -241,7 +242,7 @@ button:hover {
   color: white;
 }
 
-.previuos-button {
+.previous-button {
   position: absolute;
   top: 353px;
   left: 0;

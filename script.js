@@ -16,3 +16,22 @@ dropdown1.addEventListener("click", () => {
 dropdown2.addEventListener("click", () => {
   dropdownMenu2.classList.toggle("hidden");
 });
+
+const prevBtn = document.querySelector(".previous-button"); 
+const nextBtn = document.querySelector(".next-button");
+const scrollContainer = document.getElementById("scroll-container"); 
+
+prevBtn.addEventListener("click", () => {
+    scrollContainer.scrollBy({
+      left: -300,
+      behavior: "smooth",
+    });
+  });
+
+  nextBtn.addEventListener("click", () => {
+    scrollContainer.scrollBy({
+      left: 300,
+      behavior: "smooth",
+    });
+  });
+
