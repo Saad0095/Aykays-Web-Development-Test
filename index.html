@@ -4,9 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <title>Plum Builders</title>
   </head>
   <body>
+    <!-- NavBar -->
     <nav>
       <div class="top-nav">
         <ul>
@@ -23,10 +32,50 @@
           <li><a href="">COUNTERTOPS</a></li>
           <li><a href="">ARCHITECTURAL</a></li>
           <li><a href="">COMMERCIAL</a></li>
-          <li><a href="">STONE & PRODUCTS</a></li>
+          <li id="dropdown1" class="dropdown">
+            <div class="dropdown-text">
+              STONE & PRODUCTS<span class="material-symbols-outlined">
+                arrow_drop_down
+              </span>
+            </div>
+            <div id="dropdownMenu1" class="dropdown-menu hidden">
+              <ul>
+                <li>BEST SELLERS</li>
+                <li>QUARTZ</li>
+                <li>NATURAL STONE</li>
+                <li>LIVE INVENTORY</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <div class="menu-icon">
+          <span class="material-symbols-outlined"> drag_handle </span>
+        </div>
+      </div>
+      <div class="hidden responsive-nav">
+        <ul>
+          <li><a href="">COUNTERTOPS</a></li>
+          <li><a href="">ARCHITECTURAL</a></li>
+          <li>COMMERCIAL</li>
+          <li id="dropdown2" class="dropdown">
+            <div class="dropdown-text">
+              STONE & PRODUCTS<span class="material-symbols-outlined">
+                arrow_drop_down
+              </span>
+            </div>
+            <div id="dropdownMenu2" class="dropdown-menu hidden">
+              <ul>
+                <li>BEST SELLERS</li>
+                <li>QUARTZ</li>
+                <li>NATURAL STONE</li>
+                <li>LIVE INVENTORY</li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </div>
     </nav>
+
     <main class="container">
       <!-- Hero Section -->
       <div class="hero-section">
@@ -62,45 +111,61 @@
 
     <!-- Footer -->
     <footer>
-      <div>
-        <ul>
-          <li class="footerlogo list-heading"><img src="Media/Images/download (8).png" alt=""></li>
-          <div class="">
-            <li>CALL: 555-555-9855</li>
-            <li>EMAIL: INFO@PLUMBUILDERS.COM</li>
-          </div>
-          <div class="">
-            <li>MAIN SLAB SHOWROOM</li>
-            <li>:106 PURDY AVE.</li>
-            <li>PORT CHESTER, NY, 10573</li>
-          </div>
-          <div class="">
-            <li>FACTORY LOCATION: </li>
-            <li>28 NURSERY LANE,</li>
-            <li>RYE, NY, 10580</li>
-          </div>
-        </ul>
+      <div class="footer-1">
+        <div>
+          <ul>
+            <li class="footerlogo list-heading">
+              <img src="Media/Images/download (8).png" alt="" />
+            </li>
+            <div class="">
+              <li>CALL: 555-555-9855</li>
+              <li>EMAIL: INFO@PLUMBUILDERS.COM</li>
+            </div>
+            <div class="">
+              <li>MAIN SLAB SHOWROOM</li>
+              <li>:106 PURDY AVE.</li>
+              <li>PORT CHESTER, NY, 10573</li>
+            </div>
+            <div class="">
+              <li>FACTORY LOCATION:</li>
+              <li>28 NURSERY LANE,</li>
+              <li>RYE, NY, 10580</li>
+            </div>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="list-heading"><a href="">DESIGN ASSISTANCE</a></li>
+            <li><a href="">MEASUREMENTS</a></li>
+            <li><a href="">FREE DESIGN GUIDE</a></li>
+            <li><a href="">DESIGN CONSULTATION</a></li>
+            <li><a href="">VISUALIZER</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="list-heading"><a href="">ABOUT US</a></li>
+            <li><a href="">WHO WE ARE</a></li>
+            <li><a href="">WHAT WE DO</a></li>
+            <li><a href="">HOW WE DO IT</a></li>
+            <li><a href="">SHOWROOM</a></li>
+            <li><a href="">TRADE PROFESSIONALS</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
+      <div class="footer-2">
         <ul>
-          <li class="list-heading"><a href="">DESIGN ASSISTANCE</a></li>
-          <li><a href="">MEASUREMENTS</a></li>
-          <li><a href="">FREE DESIGN GUIDE</a></li>
-          <li><a href="">DESIGN CONSULTATION</a></li>
-          <li><a href="">VISUALIZER</a></li>
+          <li>PRIVACY POLICY</li>
+          <li>TERM AND CONDITIONS</li>
         </ul>
-      </div>
-      <div>
+        <li>© 2023 PLUM BUILDERS. ALL RIGHTS RESERVED. POWERED BY XYZ</li>
         <ul>
-          <li class="list-heading"><a href="">ABOUT US</a></li>
-          <li><a href="">WHO WE ARE</a></li>
-          <li><a href="">WHAT WE DO</a></li>
-          <li><a href="">HOW WE DO IT</a></li>
-          <li><a href="">SHOWROOM</a></li>
-          <li><a href="">TRADE PROFESSIONALS</a></li>
+          <li>FACEBOOK</li>
+          <li>INSTAGRAM</li>
         </ul>
       </div>
     </footer>
-    <script src=""></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
