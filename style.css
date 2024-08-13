@@ -263,14 +263,8 @@ button:hover {
   position: relative;
   display: flex;
   flex-direction: row;
-  min-width: 300px;
-}
-
-.section-2 .box {
-  position: relative;
-  display: flex;
   align-items: stretch;
-  min-width: 100vw;
+  min-width: 95vw;
 }
 
 @media screen and (max-width: 760px) {
@@ -287,7 +281,7 @@ button:hover {
   position: relative;
 }
 
-.inner-box img{
+.inner-box img {
   max-height: 600px;
 }
 
@@ -301,13 +295,16 @@ button:hover {
   color: rgb(216, 214, 214);
   height: 88%;
 }
-.text-hover p{
+
+.text-hover p {
   padding: 20px;
 }
-.text-hover ul li{
+
+.text-hover ul li {
   padding: 10px;
   padding-left: 80px;
 }
+
 .section-2 button {
   position: absolute;
   bottom: 4%;
@@ -320,12 +317,20 @@ button:hover {
     right: 10%;
     width: 50%;
   }
+
+  .text-hover p {
+    padding: 5px;
+  }
+
+  .text-hover ul li {
+    padding: 5px;
+    padding-left: 40px;
+  }
 }
 
 .section-2 h4 {
   border-top: 1px solid black;
   z-index: 1;
-
 }
 
 .section-2 .box img {
@@ -362,7 +367,6 @@ button:hover {
   padding: 20px;
   font-weight: 700;
   border: 1px solid black;
-
 }
 
 /* Footer */

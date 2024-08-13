@@ -4,8 +4,12 @@ const dropdown1 = document.querySelector("#dropdown1");
 const dropdownMenu1 = document.querySelector("#dropdownMenu1");
 const dropdown2 = document.querySelector("#dropdown2");
 const dropdownMenu2 = document.querySelector("#dropdownMenu2");
-const textheading = document.querySelector(".inner-box h4");
-const textHover = document.querySelector(".text-hover");
+const textheading1 = document.querySelector(".inner-box1 h4");
+const textHover1 = document.querySelector(".text-hover1");
+const textheading2 = document.querySelector(".inner-box2 h4");
+const textHover2 = document.querySelector(".text-hover2");
+const textheading3 = document.querySelector(".inner-box3 h4");
+const textHover3 = document.querySelector(".text-hover3");
 
 menuIcon.addEventListener("click", () => {
   responsiveNav.classList.toggle("hidden");
@@ -19,8 +23,16 @@ dropdown2.addEventListener("click", () => {
     dropdownMenu2.classList.toggle("hidden");
 });
 
-textheading.addEventListener("click", () => {
-    textHover.classList.toggle("hidden");
+textheading1.addEventListener("click", () => {
+    textHover1.classList.toggle("hidden");
+});
+
+textheading2.addEventListener("click", () => {
+    textHover2.classList.toggle("hidden");
+});
+
+textheading3.addEventListener("click", () => {
+    textHover3.classList.toggle("hidden");
 });
 
 const prevBtn = document.querySelector(".previous-button"); 
